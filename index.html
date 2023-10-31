@@ -73,7 +73,12 @@
 
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="photo de nina carducci" />
+		<picture>
+			<source srcset="./assets/images/responsive/portrait/etc/nina.webp" media="(max-width: 480px)" />
+            <source srcset="./assets/images/responsive/landscape/etc/nina.webp" media="(max-width: 833px)" />
+			<img src="./assets/images/nina.webp" alt="photo de nina carducci" />
+	
+		</picture>
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -171,7 +176,14 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="camera photo">
+			<picture>
+
+				<source srcset="./assets/images/mobile/portrait/etc/camera.webp" media="(max-width: 480px)" />
+              	<source srcset="./assets/images/mobile/landscape/etc/camera.webp" media="(max-width: 1000px)" />
+
+				<img src="./assets/images/camera.webp" alt="camera photo" width="419" height="418">
+		
+			</picture>
 		</div>
 	</div>
 </div>
