@@ -338,7 +338,7 @@ input[type="submit"] {
 	}
 	.picture.left::before, .picture.right::before {
 		width: 100%;
-		height: 100%
+		
 	}
 	#services .container {
 		align-items: center;

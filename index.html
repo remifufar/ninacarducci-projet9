@@ -10,7 +10,7 @@
 	<meta name="language" content="fr-FR">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/Minifier/style.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -37,8 +37,8 @@
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 
-	<script src="./assets/Minifier/maugallery.min.js" ></script>
-	<script src="./assets//Minifier/scripts.min.js" ></script>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
 
 	<script type="application/ld+json">
 		{
@@ -152,15 +152,15 @@
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-concert.webp" alt=" aaron paul concert"  width="'688'" height="917"   />
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-entrepreneur.webp" alt=" ali morshedlou entrepreneur"  width="612" height="918" />
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-entreprise.webp" alt=" jason goodman entreprise"  width="1356" height="918" />
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-mariage.webp" alt=" hannah busing mariage"  width="1146" height="917" />
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-portrait.webp" alt=" ade tunji portrait"  width="612" height="917" />
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-mariage.webp" alt=" jakob owens mariage"  width="612" height="918" />
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-photo-portrait.webp" alt=" nino van prattenburg photo portrait"  width="610" height="917" />
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-spectacle.webp" alt="austin neill spectacle"  width="1376" height="917" />
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-startup.webp" alt="mateus campos felipe startup"  width="1498" height="917" />
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-concert.webp" alt=" aaron paul concert"  width="424" height="424"  />
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-entrepreneur.webp" alt=" ali morshedlou entrepreneur"  width="424" height="424" />
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-entreprise.webp" alt=" jason goodman entreprise"  width="424" height="424" />
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-mariage.webp" alt=" hannah busing mariage"  width="424" height="424" />
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-portrait.webp" alt=" ade tunji portrait"  width="424" height="424" />
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-mariage.webp" alt=" jakob owens mariage"  width="424" height="424" />
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-photo-portrait.webp" alt=" nino van prattenburg photo portrait"  width="424" height="424" />
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-spectacle.webp" alt="austin neill spectacle"  width="424" height="424" />
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-startup.webp" alt="mateus campos felipe startup"  width="424" height="424" />
 		</div>
 	</div>
 	<div class="quote">
@@ -238,9 +238,6 @@
 		</div>
 		<div class="picture right">
 			<picture>
-
-				<source srcset="./assets/images/responsive/portrait/etc/camera.webp" media="(max-width: 480px)" />
-              	<source srcset="./assets/images/responsive/landscape/etc/camera.webp" media="(max-width: 1000px)" />
 
 				<img src="./assets/images/camera.webp" alt="camera photo" width="418" height="417" title="Appareil Photo">
 		
