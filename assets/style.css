@@ -87,12 +87,15 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 20px !important;
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 16px;
 }
-
+.aboutP{
+	font-size: 16px;
+}
 #gallery {
 	/*	min-height: 100vh; */
 }
@@ -150,6 +153,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	
 
 }
 .quote__author {
